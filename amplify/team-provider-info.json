@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-angularether-dev-144433-authRole",
+      "UnauthRoleArn": "arn:aws:iam::644676612006:role/amplify-angularether-dev-144433-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::644676612006:role/amplify-angularether-dev-144433-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-angularether-dev-144433-deployment",
+      "UnauthRoleName": "amplify-angularether-dev-144433-unauthRole",
+      "StackName": "amplify-angularether-dev-144433",
+      "StackId": "arn:aws:cloudformation:eu-central-1:644676612006:stack/amplify-angularether-dev-144433/52646380-6d77-11ed-a8b1-02dbb5c6ed4e",
+      "AmplifyAppId": "d2qxoh9ihnw9f4"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2qxoh9ihnw9f4",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
