@@ -1,0 +1,97 @@
+.button {
+  border: none;
+  outline: none;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+
+  &--primary {
+    background: linear-gradient(
+      220deg,
+      rgba(65, 156, 222, 1) 0%,
+      rgba(65, 156, 222, 1) 30%,
+      rgba(95, 176, 236, 1) 100%
+    );
+    color: #ffffff;
+
+    &:hover {
+      background: #1574b9;
+    }
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+}
+
+:host {
+  height: 100%;
+}
+
+.home-page {
+  height: 100%;
+  background-color: #eceff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+  }
+}
+
+.content {
+  padding: 24px;
+  width: 800px;
+  height: 600px;
+  border-radius: 16px;
+  background-color: #ffffff;
+
+  &__title {
+    color: #111330;
+  }
+
+  &__connect-wallet-button {
+    margin-top: 48px;
+  }
+
+  &__transaction {
+    margin-top: 48px;
+  }
+}
+
+.transaction {
+  background: linear-gradient(
+    220deg,
+    rgba(65, 156, 222, 1) 0%,
+    rgba(65, 156, 222, 1) 30%,
+    rgba(95, 176, 236, 1) 100%
+  );
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+
+  &__send-text {
+    color: #badcf5;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  &__amount {
+    font-size: 36px;
+  }
+
+  &__to-text {
+    margin-top: 36px;
+    color: #badcf5;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  &__info-text {
+    color: #ffffff;
+
+    & + & {
+      margin-top: 8px;
+    }
+  }
+}
